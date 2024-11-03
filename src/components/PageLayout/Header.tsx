@@ -23,8 +23,8 @@ const Header = () => {
           <nav>
             <ul className={styles.mainNav}>
               <li>
-                <Link href="/">
-                  <a>Shop</a>
+                <Link href="/" className="text-sm text-white">
+                  Shop
                 </Link>
               </li>
               <li>

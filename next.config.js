@@ -2,6 +2,10 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["react-ecommerce.local", "react-ecommerce-v2.lougiequisel.com"]
+    domains: [
+      process.env.WORDPRESS_IMAGE_DOMAIN || "antoinee4.sg-host.com",
+      "react-ecommerce.local",
+      "react-ecommerce-v2.lougiequisel.com"
+    ]
   }
 };

@@ -1,5 +1,5 @@
 export interface CommonFields {
-  image: {
+  image?: {
     altText: string;
     sourceUrl: string;
     mediaDetails: {
